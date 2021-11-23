@@ -1,38 +1,176 @@
-.App {
-  text-align: center;
+body{
+  background-color: #EBECF0;
+}
+.navs{
+  background-color: #FFFFFF;
+}
+.sq{
+  --tw-ring-inset: var(--tw-empty, );
+--tw-ring-offset-width: 0px;
+--tw-ring-offset-color: #fff;
+--tw-ring-color: rgba(59, 130, 246, 0.5);
+--tw-ring-offset-shadow: 0 0 #0000;
+--tw-ring-shadow: 0 0 #0000;
+}
+.nav{
+  height: 150px;
+  
+}
+.img{
+  height: 90px ;
+  width: 90px ;
+  margin-left:48px;
+  margin-top:13px;
+}
+.h1 {
+  font-size: 36px;
+  background: linear-gradient(to right, #6A2CD6, #09936D);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.p{
+  margin-left:7px;
+}
+.mb{
+  margin-top:-10px;
+  margin-bottom: 8px;
+  color: #656D79;
+}
+.con{
+  font-weight: 600;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.z{
+  color:#DC2626;
+  background-color: #FEE2E2;
+  height:27px;
+  border-radius: 5px;;
+  font-weight:600 ;
+  font-size: 14px;
+  text-align:center;
+  padding-top: 2px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width:150px;
+}
+.k{
+  margin-left: 10px;
+  color:#09936D;
+  background-color: #D1FAE5;
+  height:27px;
+  border-radius: 5px;;
+  font-weight:600 ;
+  font-size: 14px;
+  text-align:center;
+  padding-top: 2px;
+  align-items: center;
+  width:132px;
+}
+.l{
+  width:110px;
+  margin-left: 10px;
+  color:#D97706;
+  background-color: #FEF3C7;
+  height:27px;
+  border-radius: 5px;;
+  font-weight:600 ;
+  font-size: 14px;
+  text-align:center;
+  padding-top: 2px;
+  align-items: center;
+  
+}
+.tools-text{
+  background-color: #DDD6FE;
+  height:35px ;
+  font-size:18px;
+  font-weight:600;
+  text-align: center;
+  padding-left: 10px;
+}
+.pl-5{
+  margin-left: 120px;
+  
+}
+.tol{
+  align-items: center;
+  padding-left:35px;
+  padding-right:35px;
+  padding-top: 10px;
+  color:#5B21B6;
+  background-color: #DDD6FE;
+}
+.second-nav{
+  height:79px;
+}
+.searchI{
+  width:100%;
+  border: none;
+  padding-left:10px;
+}
+.search{
+  color: #9CA6C4;
+}
+.searchI::placeholder { /* Chrome/Opera/Safari */
+  font-size: 20px;
+  color:#9CA6C4;
+}
+.mp{
+  font-size: 18px;
+  color: #DC2626;
+  padding-left:10px;
+  margin-top:15px;
+
+}
+.bg{
+  background-color:#FEDEDE;
+  padding-left:30px;
+  font-weight: 600;  
+  padding-right:30px;
+  color:#DC2626;
+}
+.rotate{
+  background: linear-gradient(to right, #3AC9A0, #8467EE);
+  transform: rotate(-3deg);
+  border-radius: 15px;
+}
+.green{
+  color:#3AC9A0;
+}
+p>.green{
+  font-weight: 600;
+}
+.ma{
+  margin-top:20px;
+}
+.no-rotate{
+  transform: rotate(3deg);
+  border-radius:15px;
+  line-height: 1.5;
+  background-color: #FFFFFF;
+}
+.justify{
+  text-align: justify;
+  font-size: 13px;
+  color:#AEB4BE;
+}
+.rotate:hover .justify{
+  color:black;
+}
+.rotate:hover .no-rotate{
+  width:102%;
+  height:150px;
+
+}
+.head{
+  font-size: 20px;
+  font-weight:calc(640);
+  color:rgb(0, 0, 0);
 }
 
-.App-link {
-  color: #61dafb;
+.svg{
+  font-size:200px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bord{
+  border-bottom: #D1D5DB dashed 2px;
+  padding-bottom:50px;
 }
