@@ -21,7 +21,7 @@ export const CardsSection = styled.section`
 `;
 
 export const Line = styled.hr`
-    border-top: 8px dashed #c3c3c3;
+    border-top: 2px dashed #c3c3c3;
     padding-bottom: 20px;
     width: 100%;
     margin: 0 auto;
